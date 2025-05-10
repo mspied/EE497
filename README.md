@@ -8,3 +8,5 @@ It also contains our test scripts and the demo client that connected with MQTT t
 The checkpoint for the model is not included in the folder as it is too large to upload but can be found on the original github
 
 The ECG-FM/ourdata folder also contains some data recorded with our ADAS1000, modified for testing with the model.
+
+The esp32-adas1000 folder contains our visual studio platformio project for the adas1000 controller. It makes use of the adas1000 no-os driver (adas1000.c and adas1000.h) and also our own implimentations for the spi functions on an esp32 (communication.c and communication.h)
