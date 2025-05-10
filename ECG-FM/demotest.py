@@ -69,6 +69,6 @@ client = mqtt.Client(
 client.on_connect = on_connect
 client.on_message = on_message
 
-client.username_pw_set("ecgai2", "barrel17")
+client.username_pw_set("", "")
 client.connect("localhost", 1883)
 client.loop_forever()
